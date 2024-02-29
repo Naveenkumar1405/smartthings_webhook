@@ -1,0 +1,18 @@
+{
+  "name": "smart_things",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Navin N",
+  "license": "ISC",
+  "description": "webhook that implements st-schema to interact smartthings cloud",
+  "dependencies": {
+    "@smartthings/core-sdk": "^8.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.18.2",
+    "st-schema": "^1.5.1"
+  }
+}
